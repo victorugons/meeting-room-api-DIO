@@ -30,6 +30,7 @@ public class RoomService {
     }
 
     public RoomDTO update(RoomDTO roomDTO) {
+        this.findById(roomDTO.getId());
         Room room = mapper.toEntity(roomDTO);
         repository.save(room);
         return mapper.toDTO(room);

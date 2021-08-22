@@ -1,4 +1,4 @@
-package dev.victorugons.meetingroom;
+package dev.victorugons.meetingroom.config;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.models.Components;
